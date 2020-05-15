@@ -20,7 +20,7 @@ public class Chess {
 	
 	driver.findElement(By.id("username")).sendKeys("Abcd4430");
 	driver.findElement(By.id("password")).sendKeys("!23456");
-	driver.findElement(By.xpath("//button[@type='submit']")).click();
+	//driver.findElement(By.xpath("//button[@type='submit']")).click();
 	
 }
 }
